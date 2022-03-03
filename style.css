@@ -1,6 +1,36 @@
-*{
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap');
+body,html{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #3d0168;
+    color: #ddd;
+    font-family: 'Roboto', sans-serif;
+}  
+main.login{
+    width: 100%;
+   padding-top: 50px;
+   padding-bottom: 30px;
 }
-body{ background-color: #290742;}
+main.login .box-login{
+    
+    background-color: #6809ac;
+    opacity: 0.9;
+    border: 1px solid #09f01c;
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main.login .box-login input{
+    width: 80%;
+    
+}

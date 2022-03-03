@@ -20,17 +20,36 @@ main.login{
 main.login .box-login{
     
     background-color: #6809ac;
-    opacity: 0.9;
     border: 1px solid #09f01c;
     border-radius: 5px;
-    width: 600px;
-    height: 500px;
+    width: 400px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
+main.login .box-login h2{
+    font-weight: 100;
+    color: whitesmoke;
+}
 main.login .box-login input{
-    width: 80%;
-    
+    width: 200px;
+    height: 30px;
+    border: 1px solid #09f01c;
+    border-radius: 20px;
+    padding-left: 40px;
+    margin-bottom: 25px;
+    background-color: #170027;
+}
+
+main.login .bnt button{
+    width: 200px;
+    height: 35px;
+    border: 1px solid #09f01c;
+    border-radius: 20px;
+    background-color: #3d0168;
+    color: whitesmoke;
+    font-weight: 900;
+    cursor:pointer;
 }
